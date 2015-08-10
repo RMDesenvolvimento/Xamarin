@@ -1,0 +1,8 @@
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Debug\rmpdv.UITests.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Debug\rmpdv.UITests.pdb
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Debug\nunit.framework.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Debug\Xamarin.UITest.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Debug\nunit.framework.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Debug\Xamarin.UITest.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\obj\Debug\rmpdv.UITests.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\obj\Debug\rmpdv.UITests.pdb

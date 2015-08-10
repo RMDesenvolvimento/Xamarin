@@ -1,0 +1,4 @@
+rmpdv.MainActivity, rmpdv;md55c19f8a177f964fe76e730c6af02b391.MainActivity
+rmpdv.MainActivity, rmpdv, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55c19f8a177f964fe76e730c6af02b391.MainActivity
+rmpdv.MainActivity;md55c19f8a177f964fe76e730c6af02b391.MainActivity
+rmpdv.MainActivity;md55c19f8a177f964fe76e730c6af02b391.MainActivity
