@@ -15,3 +15,7 @@ C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable-
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\R.cs.flag
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\uploadflags.txt
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\rmpdv.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\bin\Debug\RestSharp.MonoDroid.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\bin\Debug\AlertCenter.Android.dll

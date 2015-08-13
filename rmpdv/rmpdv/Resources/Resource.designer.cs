@@ -26,6 +26,7 @@ namespace rmpdv
 		
 		public static void UpdateIdValues()
 		{
+			global::Xamarin.Controls.Resource.String.library_name = global::rmpdv.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -122,11 +123,14 @@ namespace rmpdv
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040002
+			public const int app_name = 2130968578;
+			
 			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			public const int hello = 2130968577;
 			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public const int library_name = 2130968576;
 			
 			static String()
 			{

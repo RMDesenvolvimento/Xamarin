@@ -80,6 +80,9 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"rmpdv.dll",
+		"AlertCenter.Android.dll",
+		"Newtonsoft.Json.dll",
+		"RestSharp.MonoDroid.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

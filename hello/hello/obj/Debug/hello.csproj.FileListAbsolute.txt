@@ -1,0 +1,16 @@
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\bin\Debug\hello.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\bin\Debug\hello.pdb
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\bin\Debug\com.rm_desenvolvimento.hello.apk
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\bin\Debug\com.rm_desenvolvimento.hello-Signed.apk
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\obj\Debug\hello.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\obj\Debug\hello.pdb
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\obj\Debug\android\bin\com.rm_desenvolvimento.hello.apk
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\obj\Debug\res\layout\main.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\obj\Debug\res\values\strings.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\obj\Debug\res\drawable-mdpi\icon.png
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\obj\Debug\R.cs.flag
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\hello\hello\obj\Debug\uploadflags.txt

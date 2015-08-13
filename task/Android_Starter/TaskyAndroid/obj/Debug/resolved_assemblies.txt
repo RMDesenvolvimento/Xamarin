@@ -1,0 +1,2 @@
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\task\Android_Starter\TaskyAndroid\obj\Debug\assemblies\TaskyAndroid.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\task\Android_Starter\TaskyAndroid\obj\Debug\assemblies\Tasky.Core.Anroid.dll

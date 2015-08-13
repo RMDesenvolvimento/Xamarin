@@ -1,0 +1,7 @@
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\assemblies\AndroidAlertCenter.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\assemblies\AlertCenter.Android.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\assemblies\mscorlib.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\assemblies\System.Core.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\assemblies\System.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\assemblies\System.Xml.dll

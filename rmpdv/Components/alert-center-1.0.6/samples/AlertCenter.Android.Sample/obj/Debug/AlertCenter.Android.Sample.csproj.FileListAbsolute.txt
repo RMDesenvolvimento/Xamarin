@@ -1,0 +1,16 @@
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\bin\Debug\AndroidAlertCenter.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\bin\Debug\AndroidAlertCenter.pdb
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\bin\Debug\AndroidAlertCenter.AndroidAlertCenter.apk
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\bin\Debug\AndroidAlertCenter.AndroidAlertCenter-Signed.apk
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\bin\Debug\AlertCenter.Android.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\AlertCenter.Android.Sample.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\AndroidAlertCenter.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\AndroidAlertCenter.pdb
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\android\bin\AndroidAlertCenter.AndroidAlertCenter.apk
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\res\layout\main.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\res\values\strings.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\res\drawable\icon.png
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\res\anim\collapse.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\res\anim\expand.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\R.cs.flag
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\obj\Debug\uploadflags.txt

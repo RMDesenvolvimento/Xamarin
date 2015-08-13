@@ -1,29 +1,14 @@
 ﻿<Properties StartupItem="rmpdv\rmpdv.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.169.254.156.102:5555" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.169.254.156.101:5555" />
   <MonoDevelop.Ide.Workbench ActiveDocument="rmpdv\MainActivity.cs">
     <Files>
-      <File FileName="rmpdv\MainActivity.cs" Line="44" Column="47" />
+      <File FileName="rmpdv\MainActivity.cs" Line="141" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="rmpdv" expanded="True">
-            <Node name="rmpdv" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="Assets" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="layout" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\MainActivity.cs" line="68" column="1" />
+      <Breakpoint file="C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\MainActivity.cs" line="51" column="1" />
+      <Breakpoint file="C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\MainActivity.cs" line="141" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
