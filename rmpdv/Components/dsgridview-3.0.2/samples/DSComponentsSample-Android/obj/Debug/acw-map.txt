@@ -1,0 +1,60 @@
+DScomponentsSample.MainActivity, DScomponentsSample;md5748a37c84ec7de8e73ed60919aa84dce.MainActivity
+DScomponentsSample.MainActivity, DScomponentsSample, Version=2.6.0.0, Culture=neutral, PublicKeyToken=null;md5748a37c84ec7de8e73ed60919aa84dce.MainActivity
+DScomponentsSample.MainActivity;md5748a37c84ec7de8e73ed60919aa84dce.MainActivity
+dscomponentssample.MainActivity;md5748a37c84ec7de8e73ed60919aa84dce.MainActivity
+DSComponentsSample.LayoutActivity, DScomponentsSample;md564fc4851e664b4cef7f336377553b5f4.LayoutActivity
+DSComponentsSample.LayoutActivity, DScomponentsSample, Version=2.6.0.0, Culture=neutral, PublicKeyToken=null;md564fc4851e664b4cef7f336377553b5f4.LayoutActivity
+DSComponentsSample.LayoutActivity;md564fc4851e664b4cef7f336377553b5f4.LayoutActivity
+dscomponentssample.LayoutActivity;md564fc4851e664b4cef7f336377553b5f4.LayoutActivity
+DSComponentsSample.Views.DSTextFieldView, DScomponentsSample;md5133ecdda83222ee922960e3b0cbd859d.DSTextFieldView
+DSComponentsSample.Views.DSTextFieldView, DScomponentsSample, Version=2.6.0.0, Culture=neutral, PublicKeyToken=null;md5133ecdda83222ee922960e3b0cbd859d.DSTextFieldView
+DSComponentsSample.Views.DSTextFieldView;md5133ecdda83222ee922960e3b0cbd859d.DSTextFieldView
+dscomponentssample.views.DSTextFieldView;md5133ecdda83222ee922960e3b0cbd859d.DSTextFieldView
+DSoft.UI.Views.DSToolbarView, DSoft.UI.Android;md528b6b15eae6810011aefd3a4f96b497b.DSToolbarView
+DSoft.UI.Views.DSToolbarView, DSoft.UI.Android, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null;md528b6b15eae6810011aefd3a4f96b497b.DSToolbarView
+DSoft.UI.Views.DSToolbarView;md528b6b15eae6810011aefd3a4f96b497b.DSToolbarView
+dsoft.ui.views.DSToolbarView;md528b6b15eae6810011aefd3a4f96b497b.DSToolbarView
+DSoft.UI.Views.DSNavigationBarView, DSoft.UI.Android;md528b6b15eae6810011aefd3a4f96b497b.DSNavigationBarView
+DSoft.UI.Views.DSNavigationBarView, DSoft.UI.Android, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null;md528b6b15eae6810011aefd3a4f96b497b.DSNavigationBarView
+DSoft.UI.Views.DSNavigationBarView;md528b6b15eae6810011aefd3a4f96b497b.DSNavigationBarView
+dsoft.ui.views.DSNavigationBarView;md528b6b15eae6810011aefd3a4f96b497b.DSNavigationBarView
+DSoft.UI.Grid.DSGridViewActivity, DSoft.UI.Android;md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridViewActivity
+DSoft.UI.Grid.DSGridViewActivity, DSoft.UI.Android, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null;md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridViewActivity
+DSoft.UI.Grid.DSGridViewActivity;md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridViewActivity
+dsoft.ui.grid.DSGridViewActivity;md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridViewActivity
+DSoft.UI.Grid.DSGridViewFragment, DSoft.UI.Android;md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridViewFragment
+DSoft.UI.Grid.DSGridViewFragment, DSoft.UI.Android, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null;md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridViewFragment
+DSoft.UI.Grid.DSGridViewFragment;md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridViewFragment
+dsoft.ui.grid.DSGridViewFragment;md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridViewFragment
+DSoft.UI.DSMultiDirectionScrollView, DSoft.UI.Android;md52a8be622d6813e8f6df55423fa1f6973.DSMultiDirectionScrollView
+DSoft.UI.DSMultiDirectionScrollView, DSoft.UI.Android, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null;md52a8be622d6813e8f6df55423fa1f6973.DSMultiDirectionScrollView
+DSoft.UI.DSMultiDirectionScrollView;md52a8be622d6813e8f6df55423fa1f6973.DSMultiDirectionScrollView
+dsoft.ui.DSMultiDirectionScrollView;md52a8be622d6813e8f6df55423fa1f6973.DSMultiDirectionScrollView
+DSoft.UI.Core.DSTextView, DSoft.UI.Android;md54add25e2730d413e99ae9df89898002c.DSTextView
+DSoft.UI.Core.DSTextView, DSoft.UI.Android, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null;md54add25e2730d413e99ae9df89898002c.DSTextView
+DSoft.UI.Core.DSTextView;md54add25e2730d413e99ae9df89898002c.DSTextView
+dsoft.ui.core.DSTextView;md54add25e2730d413e99ae9df89898002c.DSTextView
+DSoft.UI.Grid.Views.DSGridRowView, DSoft.UI.Android;md5e0b714f8fcc7a7a67280a915f9e0bff1.DSGridRowView
+DSoft.UI.Grid.Views.DSGridRowView, DSoft.UI.Android, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null;md5e0b714f8fcc7a7a67280a915f9e0bff1.DSGridRowView
+DSoft.UI.Grid.Views.DSGridRowView;md5e0b714f8fcc7a7a67280a915f9e0bff1.DSGridRowView
+dsoft.ui.grid.views.DSGridRowView;md5e0b714f8fcc7a7a67280a915f9e0bff1.DSGridRowView
+DSoft.UI.Grid.Views.DSGridCellView, DSoft.UI.Android;md5e0b714f8fcc7a7a67280a915f9e0bff1.DSGridCellView
+DSoft.UI.Grid.Views.DSGridCellView, DSoft.UI.Android, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null;md5e0b714f8fcc7a7a67280a915f9e0bff1.DSGridCellView
+DSoft.UI.Grid.Views.DSGridCellView;md5e0b714f8fcc7a7a67280a915f9e0bff1.DSGridCellView
+dsoft.ui.grid.views.DSGridCellView;md5e0b714f8fcc7a7a67280a915f9e0bff1.DSGridCellView
+DSoft.UI.Views.DSAbsoluteLayout, DSoft.UI.Android;md528b6b15eae6810011aefd3a4f96b497b.DSAbsoluteLayout
+DSoft.UI.Views.DSAbsoluteLayout, DSoft.UI.Android, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null;md528b6b15eae6810011aefd3a4f96b497b.DSAbsoluteLayout
+DSoft.UI.Views.DSAbsoluteLayout;md528b6b15eae6810011aefd3a4f96b497b.DSAbsoluteLayout
+dsoft.ui.views.DSAbsoluteLayout;md528b6b15eae6810011aefd3a4f96b497b.DSAbsoluteLayout
+DSoft.UI.Views.DSAbsoluteLayout/DSAbsoluteLayoutParams, DSoft.UI.Android;md528b6b15eae6810011aefd3a4f96b497b.DSAbsoluteLayout_DSAbsoluteLayoutParams
+DSoft.UI.Views.DSAbsoluteLayout/DSAbsoluteLayoutParams, DSoft.UI.Android, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null;md528b6b15eae6810011aefd3a4f96b497b.DSAbsoluteLayout_DSAbsoluteLayoutParams
+DSoft.UI.Views.DSAbsoluteLayout.DSAbsoluteLayoutParams;md528b6b15eae6810011aefd3a4f96b497b.DSAbsoluteLayout_DSAbsoluteLayoutParams
+dsoft.ui.views.DSAbsoluteLayout_DSAbsoluteLayoutParams;md528b6b15eae6810011aefd3a4f96b497b.DSAbsoluteLayout_DSAbsoluteLayoutParams
+DSoft.UI.Grid.DSGridView, DSoft.UI.Android;md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridView
+DSoft.UI.Grid.DSGridView, DSoft.UI.Android, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null;md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridView
+DSoft.UI.Grid.DSGridView;md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridView
+dsoft.ui.grid.DSGridView;md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridView
+DSoft.UI.Grid.Views.DSGridViewContainer, DSoft.UI.Android;md5e0b714f8fcc7a7a67280a915f9e0bff1.DSGridViewContainer
+DSoft.UI.Grid.Views.DSGridViewContainer, DSoft.UI.Android, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null;md5e0b714f8fcc7a7a67280a915f9e0bff1.DSGridViewContainer
+DSoft.UI.Grid.Views.DSGridViewContainer;md5e0b714f8fcc7a7a67280a915f9e0bff1.DSGridViewContainer
+dsoft.ui.grid.views.DSGridViewContainer;md5e0b714f8fcc7a7a67280a915f9e0bff1.DSGridViewContainer

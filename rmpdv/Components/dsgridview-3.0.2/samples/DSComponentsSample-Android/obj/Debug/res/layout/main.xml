@@ -1,0 +1,1 @@
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"><md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridView android:id="@+id/myDataGrid" android:layout_width="fill_parent" android:layout_height="fill_parent" /></LinearLayout>

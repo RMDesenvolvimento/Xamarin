@@ -19,3 +19,4 @@ C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\bin\Debug\Newtonsoft.Js
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\bin\Debug\RestSharp.MonoDroid.dll
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\bin\Debug\AlertCenter.Android.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\layout\produtos.xml

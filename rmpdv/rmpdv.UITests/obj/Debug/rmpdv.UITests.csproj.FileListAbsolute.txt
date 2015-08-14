@@ -6,3 +6,4 @@ C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Debug\nunit
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Debug\Xamarin.UITest.xml
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\obj\Debug\rmpdv.UITests.dll
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\obj\Debug\rmpdv.UITests.pdb
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\obj\Debug\rmpdv.UITests.csprojResolveAssemblyReference.cache

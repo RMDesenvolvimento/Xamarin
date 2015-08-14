@@ -1,0 +1,1 @@
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\devexpress-grid-15.1.6.0\samples\HelloGrid\Android\obj\Debug\HelloGrid.Android.csprojResolveAssemblyReference.cache

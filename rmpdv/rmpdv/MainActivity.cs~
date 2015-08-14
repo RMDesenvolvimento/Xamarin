@@ -31,6 +31,7 @@ namespace rmpdv
 		public string nome { get; set; }
 		public string usuario { get; set; }
 		public string email { get; set; }
+
 	}
 
 	public class Usuarios 
@@ -76,7 +77,8 @@ namespace rmpdv
 				todos.Add(um);
 
 			}
-
+			foreach (var oi in todos)
+				Console.WriteLine("Todos -> {0}",oi.nome);
 		}
 
 		public int flag { get; set; }
@@ -84,6 +86,8 @@ namespace rmpdv
 		public string nome { get; set; }
 		public string usuario { get; set; }
 		public string email { get; set; }
+
+		// Verificar Amanha
 		public List<RegistoUsuario> todos { get; set; }
 
 	}
@@ -101,7 +105,6 @@ namespace rmpdv
 			EditText senha = FindViewById<EditText>(Resource.Id.edtSenha);
 			Button login = FindViewById<Button>(Resource.Id.btnLogin);
 
-			//We need to initialize AlertCenter 
 			AlertCenter.Default.Init (Application);
 			AlertCenter.Default.TimeToClose = new TimeSpan (0, 0, 0, 3, 0);
 
@@ -138,10 +141,13 @@ namespace rmpdv
 					Console.WriteLine("Nome : {0}" , user.nome);
 					Console.WriteLine("Usuario: {0}" , user.usuario);
 					Console.WriteLine("Email: {0}" , user.email);
-					foreach (var oi in user.todos)
-						Console.WriteLine("Todos -> {0}",oi);
+// Verificar Amanha
+//					foreach (var oi in user.todos)
+//						Console.WriteLine("Todos -> {0}",oi.nome);
 					AlertCenter.Default.BackgroundColor = Color.White;
 					AlertCenter.Default.PostMessage ("Seja Bem Vindo", user.nome,Resource.Drawable.Icon);
+
+					StartActivity(typeof(produtos));
 
 				}
 

@@ -1,0 +1,3 @@
+values/Strings.xml;values/strings.xml
+drawable-mdpi/checkmark.png;drawable-mdpi/checkmark.png
+drawable-hdpi/checkmark.png;drawable-hdpi/checkmark.png

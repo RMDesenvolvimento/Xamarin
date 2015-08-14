@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="0206" android:versionName="2.6" package="DScomponentsSample.DScomponentsSample">
+  <uses-sdk android:minSdkVersion="11" />
+  <application android:label="DScomponentsSample" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:label="DSComponentsSample" android:name="md5748a37c84ec7de8e73ed60919aa84dce.MainActivity" />
+    <activity android:label="DSComponentsSample" android:name="md564fc4851e664b4cef7f336377553b5f4.LayoutActivity" />
+    <activity android:label="DSGridViewActivity" android:name="md5c0c9ec2933ed0cd674a0b93c045a752e.DSGridViewActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="DScomponentsSample.DScomponentsSample.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.DScomponentsSample.DScomponentsSample" />
+      </intent-filter>
+    </receiver>
+    <activity android:label="DSComponentsSample" android:name="dscomponentssample.dscomponentssample.TrialSplashScreen" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>

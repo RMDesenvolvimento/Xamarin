@@ -1,0 +1,30 @@
+﻿<Properties StartupItem="Android\HelloGrid.Android.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="..\..\..\..\rmpdv\MainActivity.cs" Line="155" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HelloGrid" expanded="True">
+            <Node name="HelloGrid" selected="True" />
+          </Node>
+          <Node name="rmpdv" expanded="True">
+            <Node name="rmpdv" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\MainActivity.cs" line="51" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

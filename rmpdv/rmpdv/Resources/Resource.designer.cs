@@ -67,14 +67,29 @@ namespace rmpdv
 			// aapt resource value: 0x7f060009
 			public const int btnLogin = 2131099657;
 			
+			// aapt resource value: 0x7f06000c
+			public const int btnPesquisa = 2131099660;
+			
 			// aapt resource value: 0x7f060008
 			public const int btnSair = 2131099656;
+			
+			// aapt resource value: 0x7f06000f
+			public const int btnVoltar = 2131099663;
 			
 			// aapt resource value: 0x7f060006
 			public const int edtSenha = 2131099654;
 			
 			// aapt resource value: 0x7f060004
 			public const int edtUsuario = 2131099652;
+			
+			// aapt resource value: 0x7f06000b
+			public const int edtpesquisa = 2131099659;
+			
+			// aapt resource value: 0x7f06000e
+			public const int gridProduto = 2131099662;
+			
+			// aapt resource value: 0x7f06000d
+			public const int layotProduto = 2131099661;
 			
 			// aapt resource value: 0x7f060000
 			public const int linearLayout1 = 2131099648;
@@ -90,6 +105,9 @@ namespace rmpdv
 			
 			// aapt resource value: 0x7f060003
 			public const int txtLogin = 2131099651;
+			
+			// aapt resource value: 0x7f06000a
+			public const int txtPesquisa = 2131099658;
 			
 			// aapt resource value: 0x7f060005
 			public const int txtSenha = 2131099653;
@@ -109,6 +127,9 @@ namespace rmpdv
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int produtos = 2130903041;
 			
 			static Layout()
 			{

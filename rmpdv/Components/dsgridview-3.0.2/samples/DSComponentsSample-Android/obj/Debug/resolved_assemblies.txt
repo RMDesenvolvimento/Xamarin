@@ -1,0 +1,10 @@
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\dsgridview-3.0.2\samples\DSComponentsSample-Android\obj\Debug\assemblies\DScomponentsSample.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\dsgridview-3.0.2\samples\DSComponentsSample-Android\obj\Debug\assemblies\DSoft.Datatypes.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\dsgridview-3.0.2\samples\DSComponentsSample-Android\obj\Debug\assemblies\DSoft.Datatypes.Grid.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\dsgridview-3.0.2\samples\DSComponentsSample-Android\obj\Debug\assemblies\DSoft.Themes.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\dsgridview-3.0.2\samples\DSComponentsSample-Android\obj\Debug\assemblies\DSoft.UI.Android.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\dsgridview-3.0.2\samples\DSComponentsSample-Android\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\dsgridview-3.0.2\samples\DSComponentsSample-Android\obj\Debug\assemblies\mscorlib.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\dsgridview-3.0.2\samples\DSComponentsSample-Android\obj\Debug\assemblies\System.Core.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\dsgridview-3.0.2\samples\DSComponentsSample-Android\obj\Debug\assemblies\System.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\dsgridview-3.0.2\samples\DSComponentsSample-Android\obj\Debug\assemblies\System.Xml.dll
