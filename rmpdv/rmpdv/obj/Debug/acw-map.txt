@@ -2,10 +2,14 @@ rmpdv.MainActivity, rmpdv;md55c19f8a177f964fe76e730c6af02b391.MainActivity
 rmpdv.MainActivity, rmpdv, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55c19f8a177f964fe76e730c6af02b391.MainActivity
 rmpdv.MainActivity;md55c19f8a177f964fe76e730c6af02b391.MainActivity
 rmpdv.MainActivity;md55c19f8a177f964fe76e730c6af02b391.MainActivity
-rmpdv.produtos, rmpdv;md55c19f8a177f964fe76e730c6af02b391.produtos
-rmpdv.produtos, rmpdv, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55c19f8a177f964fe76e730c6af02b391.produtos
-rmpdv.produtos;md55c19f8a177f964fe76e730c6af02b391.produtos
-rmpdv.produtos;md55c19f8a177f964fe76e730c6af02b391.produtos
+rmpdv.ProdutosList, rmpdv;md55c19f8a177f964fe76e730c6af02b391.ProdutosList
+rmpdv.ProdutosList, rmpdv, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55c19f8a177f964fe76e730c6af02b391.ProdutosList
+rmpdv.ProdutosList;md55c19f8a177f964fe76e730c6af02b391.ProdutosList
+rmpdv.ProdutosList;md55c19f8a177f964fe76e730c6af02b391.ProdutosList
+rmpdv.ProdutosViewAdapter, rmpdv;md55c19f8a177f964fe76e730c6af02b391.ProdutosViewAdapter
+rmpdv.ProdutosViewAdapter, rmpdv, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55c19f8a177f964fe76e730c6af02b391.ProdutosViewAdapter
+rmpdv.ProdutosViewAdapter;md55c19f8a177f964fe76e730c6af02b391.ProdutosViewAdapter
+rmpdv.ProdutosViewAdapter;md55c19f8a177f964fe76e730c6af02b391.ProdutosViewAdapter
 Xamarin.Controls.NotificationView, AlertCenter.Android;md542e23b173f77c31075119ae748ad8ad1.NotificationView
 Xamarin.Controls.NotificationView, AlertCenter.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md542e23b173f77c31075119ae748ad8ad1.NotificationView
 Xamarin.Controls.NotificationView;md542e23b173f77c31075119ae748ad8ad1.NotificationView

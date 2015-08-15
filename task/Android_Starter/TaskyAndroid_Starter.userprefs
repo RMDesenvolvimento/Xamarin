@@ -1,10 +1,14 @@
 ﻿<Properties StartupItem="TaskyAndroid\TaskyAndroid.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_Nexus" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyAndroid\Screens\TaskDetailsScreen.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyAndroid\Resources\Resource.designer.cs">
     <Files>
       <File FileName="TaskyAndroid\Adapters\TaskListAdapter.cs" Line="1" Column="1" />
-      <File FileName="TaskyAndroid\Screens\HomeScreen.cs" Line="34" Column="11" />
-      <File FileName="TaskyAndroid\Screens\TaskDetailsScreen.cs" Line="30" Column="4" />
+      <File FileName="TaskyAndroid\Screens\HomeScreen.cs" Line="1" Column="1" />
+      <File FileName="TaskyAndroid\Screens\TaskDetailsScreen.cs" Line="1" Column="1" />
+      <File FileName="Tasky.Core\Task.cs" Line="1" Column="1" />
+      <File FileName="TaskyAndroid\Resources\Resource.designer.cs" Line="1" Column="1" />
+      <File FileName="Tasky.Core\TaskManager.cs" Line="1" Column="1" />
+      <File FileName="Tasky.Core\TaskRepositoryADO.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

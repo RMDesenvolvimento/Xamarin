@@ -8,6 +8,6 @@ C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\devexpress-grid-15
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\devexpress-grid-15.1.6.0\samples\HelloGrid\HelloGrid\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\devexpress-grid-15.1.6.0\samples\HelloGrid\HelloGrid\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\devexpress-grid-15.1.6.0\samples\HelloGrid\HelloGrid\obj\Debug\HelloGrid.csprojResolveAssemblyReference.cache
-C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\devexpress-grid-15.1.6.0\samples\HelloGrid\HelloGrid\obj\Debug\MainPage.xaml.g.cs
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\devexpress-grid-15.1.6.0\samples\HelloGrid\HelloGrid\obj\Debug\HelloGrid.dll
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\devexpress-grid-15.1.6.0\samples\HelloGrid\HelloGrid\obj\Debug\HelloGrid.pdb
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\Components\devexpress-grid-15.1.6.0\samples\HelloGrid\HelloGrid\obj\Debug\HelloGrid.MainPage.xaml.g.cs

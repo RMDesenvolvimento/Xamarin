@@ -16,7 +16,7 @@
         p1:minWidth="25px"
         p1:minHeight="25px">
         <TextView
-            p1:text="(RM) Sistema de Comandas"
+            p1:text="(RM) PDV - Sistema de Comandas"
             p1:textAppearance="?android:attr/textAppearanceMedium"
             p1:layout_width="match_parent"
             p1:layout_height="match_parent"

@@ -64,17 +64,29 @@ namespace rmpdv
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f060010
+			public const int ListaProduto = 2131099664;
+			
 			// aapt resource value: 0x7f060009
 			public const int btnLogin = 2131099657;
 			
-			// aapt resource value: 0x7f06000c
-			public const int btnPesquisa = 2131099660;
+			// aapt resource value: 0x7f06000d
+			public const int btnPesquisa = 2131099661;
 			
 			// aapt resource value: 0x7f060008
 			public const int btnSair = 2131099656;
 			
-			// aapt resource value: 0x7f06000f
-			public const int btnVoltar = 2131099663;
+			// aapt resource value: 0x7f06000b
+			public const int btnVoltar = 2131099659;
+			
+			// aapt resource value: 0x7f060011
+			public const int edtCodigo = 2131099665;
+			
+			// aapt resource value: 0x7f060012
+			public const int edtPreco = 2131099666;
+			
+			// aapt resource value: 0x7f060014
+			public const int edtProduto = 2131099668;
 			
 			// aapt resource value: 0x7f060006
 			public const int edtSenha = 2131099654;
@@ -82,23 +94,26 @@ namespace rmpdv
 			// aapt resource value: 0x7f060004
 			public const int edtUsuario = 2131099652;
 			
-			// aapt resource value: 0x7f06000b
-			public const int edtpesquisa = 2131099659;
+			// aapt resource value: 0x7f06000c
+			public const int edtpesquisa = 2131099660;
 			
-			// aapt resource value: 0x7f06000e
-			public const int gridProduto = 2131099662;
-			
-			// aapt resource value: 0x7f06000d
-			public const int layotProduto = 2131099661;
+			// aapt resource value: 0x7f06000f
+			public const int layotProduto = 2131099663;
 			
 			// aapt resource value: 0x7f060000
 			public const int linearLayout1 = 2131099648;
+			
+			// aapt resource value: 0x7f060013
+			public const int linearLayout2 = 2131099667;
 			
 			// aapt resource value: 0x7f060001
 			public const int linearLayout3 = 2131099649;
 			
 			// aapt resource value: 0x7f060007
 			public const int linearLayout4 = 2131099655;
+			
+			// aapt resource value: 0x7f06000e
+			public const int space1 = 2131099662;
 			
 			// aapt resource value: 0x7f060002
 			public const int titulo = 2131099650;
@@ -130,6 +145,9 @@ namespace rmpdv
 			
 			// aapt resource value: 0x7f030001
 			public const int produtos = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int ProdutosListItem = 2130903042;
 			
 			static Layout()
 			{

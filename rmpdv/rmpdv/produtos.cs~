@@ -41,7 +41,7 @@ namespace rmpdv
 			Console.WriteLine("Array {0}",jProd);
 
 			RegistroProdutos um = new RegistroProdutos ();
-			List<RegistroProdutos> todos = new List<RegistroProdutos>();
+			Todos = new List<RegistroProdutos>();
 
 			string registro = "";
 			foreach (var item in jProd) {
@@ -67,10 +67,10 @@ namespace rmpdv
 				um.preco = preco;
 				um.id = id;
 
-				todos.Add(um);
+				Todos.Add(um);
 
 			}
-			foreach (var oi in todos)
+			foreach (var oi in Todos)
 				Console.WriteLine("Todos -> {0}",oi.nome);
 		}
 
@@ -78,7 +78,7 @@ namespace rmpdv
 		public int id {get; set;}
 		public String nome {get; set;}
 		public float preco {get; set;}
-		public List<RegistroProdutos> todos { get; set; }
+		public List<RegistroProdutos> Todos { get; set; }
 
 	}
 
@@ -96,7 +96,6 @@ namespace rmpdv
 			Button voltar = FindViewById<Button>(Resource.Id.btnVoltar);
 			Button pesquisa = FindViewById<Button>(Resource.Id.btnPesquisa);
 			TextView edpesquisa = FindViewById<TextView>(Resource.Id.edtpesquisa);
-			var grid = FindViewById<GridView>(Resource.Id.gridProduto);
 
 
 			voltar.Click += (sender, e) => {
@@ -107,7 +106,7 @@ namespace rmpdv
 				string url = "http://192.168.0.103/rest";
 
 				var client = new RestClient(url);
-				var request = new RestRequest("produtos");    
+				var request = new RestRequest("produtos", Method.GET);    
 				request.AddParameter("nome", pesquisa.Text);
 				IRestResponse response = client.Execute(request);
 
@@ -135,8 +134,6 @@ namespace rmpdv
 					Console.WriteLine("Preco: {0}" , Prod.preco);
 					Console.WriteLine("Id: {0}" , Prod.id);
 
-					// verificar amanha
-					// grid.Adapter = Prod.todos;
 
 				}
 			};

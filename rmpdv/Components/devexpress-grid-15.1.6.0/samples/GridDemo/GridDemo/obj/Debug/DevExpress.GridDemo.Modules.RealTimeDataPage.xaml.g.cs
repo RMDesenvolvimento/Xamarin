@@ -8,18 +8,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HelloGrid {
+namespace DevExpress.GridDemo {
     using System;
     using Xamarin.Forms;
     using Xamarin.Forms.Xaml;
     
     
-    public partial class MainPage : ContentPage {
+    public partial class RealTimeDataPage : ContentPage {
         
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::DevExpress.Mobile.DataGrid.GridControl grid;
         
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(MainPage));
+            this.LoadFromXaml(typeof(RealTimeDataPage));
             grid = this.FindByName<global::DevExpress.Mobile.DataGrid.GridControl>("grid");
         }
     }

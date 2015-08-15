@@ -23,17 +23,6 @@ using System.Linq;
 namespace rmpdv
 {
 
-	public class RegistoUsuario 
-
-	{
-
-		public int id { get; set; }
-		public string nome { get; set; }
-		public string usuario { get; set; }
-		public string email { get; set; }
-
-	}
-
 	public class Usuarios 
 	{
 
@@ -46,11 +35,10 @@ namespace rmpdv
 			Console.WriteLine("Array {0}",jUser);
 
 			RegistoUsuario um = new RegistoUsuario ();
-			List<RegistoUsuario> todos = new List<RegistoUsuario>();
+			Todos = new List<RegistoUsuario>();
 
-			string registro = "";
 			foreach (var item in jUser) {
-				registro = item.ToString();	
+				string registro = item.ToString();	
 
 				var leitura = Newtonsoft.Json.Linq.JObject.Parse (registro);
 
@@ -74,10 +62,10 @@ namespace rmpdv
 				um.email = email;
 				um.id = id;
 
-				todos.Add(um);
+				Todos.Add(um);
 
 			}
-			foreach (var oi in todos)
+			foreach (var oi in Todos)
 				Console.WriteLine("Todos -> {0}",oi.nome);
 		}
 
@@ -88,7 +76,7 @@ namespace rmpdv
 		public string email { get; set; }
 
 		// Verificar Amanha
-		public List<RegistoUsuario> todos { get; set; }
+		public List<RegistoUsuario> Todos { get; set; }
 
 	}
 
@@ -142,12 +130,12 @@ namespace rmpdv
 					Console.WriteLine("Usuario: {0}" , user.usuario);
 					Console.WriteLine("Email: {0}" , user.email);
 // Verificar Amanha
-//					foreach (var oi in user.todos)
-//						Console.WriteLine("Todos -> {0}",oi.nome);
+					foreach (var oi in user.Todos)
+						Console.WriteLine("Todos -> {0}",oi.nome);
 					AlertCenter.Default.BackgroundColor = Color.White;
 					AlertCenter.Default.PostMessage ("Seja Bem Vindo", user.nome,Resource.Drawable.Icon);
 
-					StartActivity(typeof(produtos));
+					StartActivity(typeof(ProdutosList));
 
 				}
 

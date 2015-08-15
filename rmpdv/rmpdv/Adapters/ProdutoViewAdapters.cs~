@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Linq;
+
+using Android.App;
+using Android.Content;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+using Android.OS;
+
+namespace rmpdv
+{
+	class ProdutosViewAdapters : BaseAdapter<RegistroProdutos>
+	{
+		private List<RegistroProdutos> mProdutos;
+		private Context mContext;
+		public ProdutosViewAdapters (Context context, List<RegistroProdutos> produtos)
+		{
+			mContext = context;
+			mProdutos = produtos;
+		}
+
+		public override int Count {
+			get {return mProdutos.Count;}
+		}
+
+		public override long GetItemId (int position)
+		{
+			return position;
+		}
+
+		public override RegistroProdutos this[int Position] {
+			get	{ return mProdutos [Position]; }
+		}
+
+		public override View GetView( int position, View convertView, ViewGroup parent) {
+			View linha = convertView;
+
+			if (linha == null) {
+				linha = LayoutInflater.From (mContext).Inflate (Resource.Layout.ProdutosListItem, null, false);
+			}
+
+			TextView txtId = linha.FindViewById<TextView> (Resource.Id.edtCodigo);
+			TextView txtNome = linha.FindViewById<TextView> (Resource.Id.edtProduto);
+			TextView txtPreco = linha.FindViewById<TextView> (Resource.Id.edtPreco);
+
+			txtId.Text = (string) mProdutos[position].id.ToString();
+			txtNome.Text = (string) mProdutos[position].nome;
+			txtPreco.Text = (string) mProdutos[position].preco.ToString();
+
+			return linha;
+		}
+
+	}
+}
+
