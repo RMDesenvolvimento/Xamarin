@@ -21,3 +21,14 @@ C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\bin\Debug\Newtonsoft.Js
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\bin\Debug\AlertCenter.Android.dll
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\layout\produtos.xml
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\layout\produtoslistitem.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\btnsairstyle.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\barraprogressostyle.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\logout.png
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\login.png
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\layout\dialogologin.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\btnloginstyle.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\dialogologin.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\values\styles.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\dialogoacima.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\dialogodireita.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\editentrar.xml

@@ -63,6 +63,9 @@
     <Compile Include="Tabelas\RegistroProdutos.cs" />
     <Compile Include="Tabelas\RegistoUsuario.cs" />
     <Compile Include="Adapters\ProdutoViewAdapter.cs" />
+    <Compile Include="Json\UsuarioJson.cs" />
+    <Compile Include="Json\ProdutosListaJson.cs" />
+    <Compile Include="Fragment\LoginDialogo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -80,6 +83,17 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\layout\produtos.axml" />
     <AndroidResource Include="Resources\layout\ProdutosListItem.axml" />
+    <AndroidResource Include="Resources\drawable\BtnSairStyle.xml" />
+    <AndroidResource Include="Resources\drawable\BarraProgressoStyle.xml" />
+    <AndroidResource Include="Resources\drawable\logout.png" />
+    <AndroidResource Include="Resources\drawable\login.png" />
+    <AndroidResource Include="Resources\layout\DialogoLogin.axml" />
+    <AndroidResource Include="Resources\drawable\BtnLoginStyle.xml" />
+    <AndroidResource Include="Resources\drawable\DialogoLogin.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\drawable\dialogoacima.xml" />
+    <AndroidResource Include="Resources\drawable\dialogodireita.xml" />
+    <AndroidResource Include="Resources\drawable\EditEntrar.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -99,5 +113,8 @@
   <ItemGroup>
     <Folder Include="Adapters\" />
     <Folder Include="Tabelas\" />
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Json\" />
+    <Folder Include="Fragment\" />
   </ItemGroup>
 </Project>

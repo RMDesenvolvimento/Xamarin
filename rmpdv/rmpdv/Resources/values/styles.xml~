@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+   <style name="AnimacaoDialogo">
+        <item name="android:windowEnterAnimation">@drawable/dialogoacima</item>
+        <item name="android:windowExitAnimation">@drawable/dialogodireita</item>
+    </style>
+</resources>
+

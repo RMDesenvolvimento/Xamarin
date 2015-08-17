@@ -1,92 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
-    p1:orientation="vertical"
-    p1:layout_width="match_parent"
-    p1:layout_height="match_parent"
-    p1:id="@+id/linearLayout1"
-    p1:paddingTop="30dp"
-    p1:paddingRight="15dp"
-    p1:paddingLeft="15dp"
-    p1:paddingBottom="10dp">
-    <LinearLayout
-        p1:orientation="horizontal"
-        p1:layout_width="match_parent"
-        p1:layout_height="70.8dp"
-        p1:id="@+id/linearLayout3"
-        p1:minWidth="25px"
-        p1:minHeight="25px">
-        <TextView
-            p1:text="(RM) PDV - Sistema de Comandas"
-            p1:textAppearance="?android:attr/textAppearanceMedium"
-            p1:layout_width="match_parent"
-            p1:layout_height="match_parent"
-            p1:id="@+id/titulo"
-            p1:gravity="center_vertical" />
-    </LinearLayout>
-    <LinearLayout
-        p1:orientation="horizontal"
-        p1:layout_width="match_parent"
-        p1:layout_height="70.8dp"
-        p1:id="@+id/linearLayout3"
-        p1:minWidth="25px"
-        p1:minHeight="25px"
-        p1:gravity="center_vertical">
-        <TextView
-            p1:text="Usuario:"
-            p1:textAppearance="?android:attr/textAppearanceMedium"
-            p1:id="@+id/txtLogin"
-            p1:layout_width="84.1dp"
-            p1:layout_height="wrap_content"
-            p1:layout_marginRight="0.0dp" />
-        <EditText
-            p1:inputType="text"
-            p1:layout_width="261.6dp"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/edtUsuario"
-            p1:layout_marginLeft="0.0dp"
-            p1:layout_marginRight="0.0dp" />
-    </LinearLayout>
-    <LinearLayout
-        p1:orientation="horizontal"
-        p1:layout_width="match_parent"
-        p1:layout_height="70.8dp"
-        p1:id="@+id/linearLayout3"
-        p1:minWidth="25px"
-        p1:minHeight="25px"
-        p1:gravity="center_vertical">
-        <TextView
-            p1:text="Senha:"
-            p1:textAppearance="?android:attr/textAppearanceMedium"
-            p1:id="@+id/txtSenha"
-            p1:layout_width="84.1dp"
-            p1:layout_height="wrap_content"
-            p1:layout_marginRight="0.0dp" />
-        <EditText
-            p1:inputType="numberPassword"
-            p1:layout_width="214.1dp"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/edtSenha" />
-    </LinearLayout>
-    <LinearLayout
-        p1:orientation="horizontal"
-        p1:layout_width="match_parent"
-        p1:layout_height="96.6dp"
-        p1:id="@+id/linearLayout4"
-        p1:layout_marginBottom="15.0dp"
-        p1:gravity="right"
-        p1:paddingTop="20dp">
-        <Button
-            p1:text="Sair"
-            p1:layout_width="wrap_content"
-            p1:layout_height="match_parent"
-            p1:id="@+id/btnSair"
-            p1:gravity="center_vertical" />
-        <Button
-            p1:text="Login"
-            p1:layout_width="wrap_content"
-            p1:layout_height="match_parent"
-            p1:id="@+id/btnLogin"
-            p1:gravity="center_vertical"
-            p1:layout_marginLeft="28.2dp" />
-    </LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layoutPrincipal"
+    android:background="@android:color/background_light"
+    android:weightSum="100"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="[PDV] Sistema de Lancamento de Comanda"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:textColor="#368D8B"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="27sp" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:id="@+id/txtSeparador1" />
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:id="@+id/btnLogin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/BtnLoginStyle"
+        android:drawableLeft="@drawable/login" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/txtSeparador2" />
+    <Button
+        android:text="Sair do Sistema"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:id="@+id/btnSair"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/BtnSairStyle"
+        android:drawableLeft="@drawable/logout" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="37"
+        android:id="@+id/relativeLayout1">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressoBar"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:background="@drawable/BarraProgressoStyle"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:visibility="invisible" />
+    </RelativeLayout>
 </LinearLayout>

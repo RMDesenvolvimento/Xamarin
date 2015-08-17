@@ -20,4 +20,13 @@ Global
 		{BD8F96F1-84C7-4D30-9F9F-A238449EEF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD8F96F1-84C7-4D30-9F9F-A238449EEF31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.VersionControlPolicy = $2
+		$2.inheritsSet = Mono
+		description = Sistema de Ponto de Vendas Hotel
+	EndGlobalSection
 EndGlobal
