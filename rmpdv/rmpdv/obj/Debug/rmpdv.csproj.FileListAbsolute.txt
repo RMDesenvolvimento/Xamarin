@@ -32,3 +32,6 @@ C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\values\st
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\dialogoacima.xml
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\dialogodireita.xml
 C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\editentrar.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\pesquisa.png
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\drawable\pesquisastyle.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv\obj\Debug\res\menu\barraacao.xml

@@ -1,60 +1,16 @@
 ﻿<Properties StartupItem="rmpdv\rmpdv.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_Nexus" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="rmpdv\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="rmpdv\ProdutosList.cs">
     <Files>
-      <File FileName="rmpdv\MainActivity.cs" Line="21" Column="1" />
-      <File FileName="rmpdv\Resources\values\styles.xml" Line="3" Column="32" />
-      <File FileName="rmpdv\Fragment\LoginDialogo.cs" Line="67" Column="1" />
-      <File FileName="rmpdv\ProdutosList.cs" Line="48" Column="19" />
-      <File FileName="Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\Activity1.cs" Line="1" Column="1" />
-      <File FileName="Components\alert-center-1.0.6\samples\AlertCenter.Android.Sample\Resources\anim\collapse.xml" Line="1" Column="1" />
+      <File FileName="rmpdv\MainActivity.cs" Line="103" Column="18" />
+      <File FileName="rmpdv\ProdutosList.cs" Line="150" Column="6" />
+      <File FileName="rmpdv\Fragment\LoginDialogo.cs" Line="58" Column="4" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="AlertCenter.Android.Sample" expanded="True">
-            <Node name="AlertCenter.Android.Sample" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="Assets" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="anim" expanded="True" />
-                <Node name="drawable" expanded="True" />
-                <Node name="layout" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-          <Node name="rmpdv" expanded="True">
-            <Node name="rmpdv" expanded="True">
-              <Node name="References" expanded="True">
-                <Node name="From Packages" expanded="True" />
-              </Node>
-              <Node name="ComponentReferenceFolder" expanded="True" />
-              <Node name="Assets" expanded="True" />
-              <Node name="Fragment" expanded="True" />
-              <Node name="Json" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
-                <Node name="drawable-hdpi" expanded="True" />
-                <Node name="drawable-mdpi" expanded="True" />
-                <Node name="drawable-xhdpi" expanded="True" />
-                <Node name="drawable-xxhdpi" expanded="True" />
-                <Node name="drawable-xxxhdpi" expanded="True" />
-                <Node name="layout" expanded="True" />
-                <Node name="values" expanded="True" />
-              </Node>
-              <Node name="Tabelas" expanded="True" />
-              <Node name="MainActivity.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <AuthorInfo Name="Ricardo Miranda" Email="rm@rmonline.com.br" Copyright="RM Desenvolvimento" Company="RM Desenvolvimento" Trademark="2015" />
-  <MonoDevelop.Ide.ItemProperties.rmpdv AndroidDesignerPreferredDevice="Nexus 4" />
+  <MonoDevelop.Ide.ItemProperties.rmpdv AndroidDesignerPreferredDevice="4.65&quot; 720p (Galaxy Nexus)" />
 </Properties>

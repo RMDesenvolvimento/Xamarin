@@ -1,62 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     <LinearLayout
-        android:orientation="horizontal"
+        android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout1">
-        <TextView
-            android:text="Digite nome produto p/ pesquisa"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="269.3dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtPesquisa"
-            android:textAlignment="center" />
-        <Button
-            android:text="Voltar"
-            android:layout_width="101.8dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnVoltar" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="45.1dp"
-        android:id="@+id/linearLayout4">
-        <EditText
-            android:inputType="textPersonName"
-            android:layout_width="269.3dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/edtpesquisa" />
-        <Button
-            android:text="Pesquisa"
-            android:layout_width="103.7dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnPesquisa"
-            android:textAllCaps="false" />
-    </LinearLayout>
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:id="@+id/space1" />
-    <LinearLayout
         android:orientation="vertical"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/layotProduto"
-        android:layout_marginBottom="0.0dp"
-        android:paddingRight="10dp"
-        android:paddingLeft="10dp">
+        android:id="@+id/llContainer">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="#E2E2E2"
+            android:weightSum="100">
+            <TextView
+                android:text="Codigo"
+                android:layout_height="match_parent"
+                android:layout_width="77.9dp"
+                android:layout_weight="15"
+                android:gravity="center_horizontal"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:text="Nome do Produto"
+                android:id="@+id/txxCabecalhoProduto"
+                android:layout_height="match_parent"
+                android:layout_width="108.6dp"
+                android:layout_weight="70"
+                android:gravity="center_horizontal"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:text="Preço"
+                android:layout_height="match_parent"
+                android:layout_width="77.5dp"
+                android:layout_weight="15"
+                android:gravity="center_horizontal"
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <View
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="#000" />
         <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:id="@+id/ListaProduto"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:paddingRight="10dp"
-            android:paddingLeft="10dp" />
+            android:background="#F2F2F2"
+            android:divider="#101010"
+            android:dividerHeight="1dp" />
     </LinearLayout>
-</LinearLayout>
+    <EditText
+        android:id="@+id/edtpesquisa"
+        android:layout_width="match_parent"
+        android:background="@drawable/pesquisastyle"
+        android:hint="Pesquisa Produtos"
+        android:textColor="#000"
+        android:layout_height="37dp"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:visibility="invisible" />
+</FrameLayout>

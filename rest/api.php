@@ -93,6 +93,7 @@
 
     					// push single product into final response array
    						array_push($result['data_usuario'], $user);
+						unset($user);
 					}
 					
 					// If success everythig is good send header as "OK" and user details
@@ -134,6 +135,7 @@
 
 						// push single product into final response array
    						array_push($result['data_usuario'], $user);
+						unset($user);
 
 					}
 
@@ -184,7 +186,7 @@
  						$user[] = array();
   						$user["id"] = $rlt["id"]; 						
   						$user["nome"] = $rlt["descricao"];
-  						$user["preco"] = $rlt["preco_venda"];
+  						$user["preco"] = number_format((float)$rlt["preco_venda"],2,'.',',');
 
 						// push single product into final response array
    						array_push($result['data_produto'], $user);

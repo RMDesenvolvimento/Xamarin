@@ -66,6 +66,8 @@
     <Compile Include="Json\UsuarioJson.cs" />
     <Compile Include="Json\ProdutosListaJson.cs" />
     <Compile Include="Fragment\LoginDialogo.cs" />
+    <Compile Include="Animacao.cs" />
+    <Compile Include="Metodos\ExtMeth.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -94,6 +96,9 @@
     <AndroidResource Include="Resources\drawable\dialogoacima.xml" />
     <AndroidResource Include="Resources\drawable\dialogodireita.xml" />
     <AndroidResource Include="Resources\drawable\EditEntrar.xml" />
+    <AndroidResource Include="Resources\drawable\pesquisa.png" />
+    <AndroidResource Include="Resources\drawable\PesquisaStyle.xml" />
+    <AndroidResource Include="Resources\menu\BarraAcao.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -116,5 +121,7 @@
     <Folder Include="Resources\drawable\" />
     <Folder Include="Json\" />
     <Folder Include="Fragment\" />
+    <Folder Include="Resources\menu\" />
+    <Folder Include="Metodos\" />
   </ItemGroup>
 </Project>

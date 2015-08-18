@@ -45,8 +45,8 @@ namespace rmpdv
 				Todos.Add(um);
 
 			}
-			foreach (var oi in Todos)
-				Console.WriteLine("Lista Todos -> {0}",oi.nome);
+//			foreach (var oi in Todos)
+//				Console.WriteLine("Lista Todos -> {0}",oi.nome);
 		}
 
 		public int flag { get; set; }

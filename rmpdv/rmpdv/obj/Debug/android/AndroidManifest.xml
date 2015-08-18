@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.rm_desenvolvimento.rmpdv">
-  <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="19" />
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="19" />
   <application android:icon="@drawable/icon" android:label="apollo" android:name="mono.android.app.Application" android:debuggable="true">
     <activity android:icon="@drawable/icon" android:label="(RM) Apollo" android:name="md55c19f8a177f964fe76e730c6af02b391.MainActivity" />
-    <activity android:label="produtos" android:name="md55c19f8a177f964fe76e730c6af02b391.ProdutosList" />
+    <activity android:label="Listagem de Produtos" android:name="md55c19f8a177f964fe76e730c6af02b391.ProdutosList" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.rm_desenvolvimento.rmpdv.mono.MonoRuntimeProvider.__mono_init__" />
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>

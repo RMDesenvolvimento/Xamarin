@@ -1,0 +1,78 @@
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.dll
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.pdb
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.dll.mdb
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.AnimationTutorial.apk
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.AnimationTutorial-Signed.apk
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\AnimationTutorial.dll
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\AnimationTutorial.pdb
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\android\bin\AnimationTutorial.AnimationTutorial.apk
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\res\layout\row_friend.xml
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\res\layout\main.xml
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\res\values\strings.xml
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\icon.png
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\edit_text_style.xml
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\ic_action_search.png
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\res\values\themes.xml
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\R.cs.flag
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\uploadflags.txt
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\res\menu\actionbar.xml
+c:\users\joseph\documents\visual studio 2013\Projects\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\xs.png
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.dll
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.pdb
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.dll.mdb
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.AnimationTutorial.apk
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.AnimationTutorial-Signed.apk
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\AnimationTutorial.dll
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\AnimationTutorial.pdb
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\android\bin\AnimationTutorial.AnimationTutorial.apk
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\res\layout\row_friend.xml
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\res\layout\main.xml
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\res\values\strings.xml
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\icon.png
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\edit_text_style.xml
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\ic_action_search.png
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\res\values\themes.xml
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\res\menu\actionbar.xml
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\xs.png
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\R.cs.flag
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\uploadflags.txt
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Start\AnimationTutorial\AnimationTutorial\obj\Debug\AnimationTutorial.csprojResolveAssemblyReference.cache
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.dll
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.pdb
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.dll.mdb
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.AnimationTutorial.apk
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.AnimationTutorial-Signed.apk
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\AnimationTutorial.csprojResolveAssemblyReference.cache
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\AnimationTutorial.dll
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\AnimationTutorial.pdb
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\android\bin\AnimationTutorial.AnimationTutorial.apk
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\res\layout\row_friend.xml
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\res\layout\main.xml
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\res\values\strings.xml
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\icon.png
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\edit_text_style.xml
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\ic_action_search.png
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\res\values\themes.xml
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\res\menu\actionbar.xml
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\xs.png
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\R.cs.flag
+C:\Users\Joseph\Documents\Visual Studio 2013\Projects\Xamarin15Done\AnimationTutorial\AnimationTutorial\obj\Debug\uploadflags.txt
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.pdb
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.AnimationTutorial.apk
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\bin\Debug\AnimationTutorial.AnimationTutorial-Signed.apk
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\AnimationTutorial.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\AnimationTutorial.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\AnimationTutorial.pdb
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\android\bin\AnimationTutorial.AnimationTutorial.apk
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\res\layout\row_friend.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\res\layout\main.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\res\values\strings.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\icon.png
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\edit_text_style.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\ic_action_search.png
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\res\values\themes.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\res\menu\actionbar.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\res\drawable\xs.png
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\R.cs.flag
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\AnimationTutorial\AnimationTutorial\obj\Debug\uploadflags.txt
