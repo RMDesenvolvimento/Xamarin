@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rmpdv", "rmpdv\rmpdv.csproj", "{3955D4D5-88B4-4679-A23A-BDE5EC4D4C31}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rmpdv.UITests", "rmpdv.UITests\rmpdv.UITests.csproj", "{BD8F96F1-84C7-4D30-9F9F-A238449EEF31}"

@@ -4,4 +4,9 @@
         android:showAsAction="always"
         android:title="Pesquisa"
         android:icon="@drawable/pesquisa"/>
+
+  <item android:id="@+id/voltarproduto"
+        android:showAsAction="always"
+        android:title="Voltar"
+        android:icon="@drawable/voltar"/>
 </menu>

@@ -13,10 +13,11 @@ using Xamarin.Controls;
 using System.Json;
 using System.IO;
 using System.Collections.Generic;
-
-using RestSharp;
-using Newtonsoft.Json.Linq;
+using System.ComponentModel;
+using System.Net;
 using Newtonsoft.Json;
+using System.Text;
+using System.Collections.Specialized;
 using System.Linq;
 using Android.Views.InputMethods;
 
@@ -33,9 +34,13 @@ namespace rmpdv
 		ProdutosViewAdapter mProdutoAdapter;
 		private bool mAnimacaoDown;
 		private bool mAnicamcao;
-		private Produtos prod;
 		private List<RegistroProdutos> lProduto;
 		private bool mOrdemConsulta;
+		private WebClient mClient;
+		private Uri mUrl;
+		private ProgressBar mProgressBar;
+		private BackgroundWorker mWorker;
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -46,54 +51,59 @@ namespace rmpdv
 			edPesquisa = FindViewById<TextView>(Resource.Id.edtpesquisa);
 			lstProdutoView = FindViewById<ListView> (Resource.Id.ListaProduto);
 			mContainer = FindViewById<LinearLayout>(Resource.Id.llContainer);
-
+			mProgressBar = FindViewById<ProgressBar>(Resource.Id.progressBar);
 			mCabecalhoProduto = FindViewById<TextView> (Resource.Id.txxCabecalhoProduto);
+
+			mWorker = new BackgroundWorker();
 
 			edPesquisa.Alpha = 0;
 
 			mContainer.BringToFront ();
+			mProgressBar.BringToFront ();
+
+			mProgressBar.Visibility = ViewStates.Visible;
+
+			mUrl = new Uri("http://192.168.0.103/rest1/getprodutos.php?nome=VINHO");
+
+			mClient = new WebClient();
+			mClient.DownloadDataAsync(mUrl);
+			mClient.DownloadDataCompleted += mClient_DownloadDataCompleted;
 
 			mCabecalhoProduto.Click += MCabecalhoProduto_Click;
 			edPesquisa.TextChanged += edPesquisa_TextChange;
 
-			string url = "http://192.168.0.103/rest";
-
-			var client = new RestClient(url);
-			var request = new RestRequest("produtos", Method.GET);    
-			request.AddParameter("nome", "COCA");
-
-			IRestResponse response = client.Execute(request);
-
-			string conteudo = @response.Content; // raw content as string
-			string resposta = response.StatusDescription;
-
-			Console.WriteLine("Resposta {0} --- {1}",conteudo, resposta);
-
-			if (resposta != "OK") {
-
-				var leitura = Newtonsoft.Json.Linq.JObject.Parse (conteudo);
-				string status = (String) leitura["status"];
-
-				string mensagem = (String) leitura["msg"];
-				//We need to initialize AlertCenter 
-				Console.WriteLine("Resposta {0} --- {1}",mensagem, status);
-				AlertCenter.Default.BackgroundColor = Color.Red;
-				AlertCenter.Default.PostMessage ("Mensagem de Erro", mensagem,Resource.Drawable.Icon);
-
-			} else {
-
-				prod = new Produtos(response.Content);
-				lProduto = prod.Todos;
-				//Console.WriteLine("Nome : {0}" , prod.nome);
-				///Console.WriteLine("Preco: {0}" , prod.preco);
-				//Console.WriteLine("Id: {0}" , prod.id);
-
-				mProdutoAdapter = new ProdutosViewAdapter (this, Resource.Layout.ProdutosListItem, lProduto);
-				lstProdutoView.Adapter = mProdutoAdapter;
-
-			}
-
+		
 		}
+
+		void mClient_DownloadDataCompleted(object sender, DownloadDataCompletedEventArgs e)
+		{
+
+			RunOnUiThread(() =>
+				{
+					string json = Encoding.UTF8.GetString(e.Result);
+					if (json == "Sem Registro")
+					{
+						lProduto = new List<RegistroProdutos>();
+						mProdutoAdapter = new ProdutosViewAdapter(this, Resource.Layout.ProdutosListItem, lProduto);
+						lstProdutoView.Adapter = mProdutoAdapter;
+
+						AlertDialog.Builder builder = new AlertDialog.Builder(this);
+						builder.SetMessage("Seleção sem Registro");
+						builder.SetCancelable(false);
+						builder.SetPositiveButton("OK", delegate {builder.Dispose(); });
+						builder.Show();
+						return;
+
+					} else {
+
+						lProduto = JsonConvert.DeserializeObject<List<RegistroProdutos>>(json);
+						mProdutoAdapter = new ProdutosViewAdapter(this, Resource.Layout.ProdutosListItem, lProduto);
+						lstProdutoView.Adapter = mProdutoAdapter;
+						mProgressBar.Visibility = ViewStates.Gone;
+					}
+				});
+		} 
+
 
 		void MCabecalhoProduto_Click (object sender, EventArgs e)
 		{
@@ -128,14 +138,16 @@ namespace rmpdv
 
 		public override bool OnOptionsItemSelected(IMenuItem item)
 		{
-//			RegistroProdutos selectedFromList = new RegistroProdutos() ;
-//			selectedFromList = mProdutoAdapter[ (item.ItemId) ];
-//			AlertCenter.Default.BackgroundColor = Color.Red;
-//			AlertCenter.Default.PostMessage ("Selecionado Produto", selectedFromList.nome,Resource.Drawable.Icon);
-		
+
 			switch (item.ItemId)
 			{
 
+			case Resource.Id.voltarproduto:
+
+				StartActivity (typeof(MenuPrincipal));
+				this.Finish ();	
+				return true;
+			
 			case Resource.Id.pesquisa:
 				
 				//Search icon has been clicked

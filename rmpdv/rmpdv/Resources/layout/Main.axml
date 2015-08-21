@@ -63,15 +63,5 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="37"
-        android:id="@+id/relativeLayout1">
-        <ProgressBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/progressoBar"
-            android:layout_centerInParent="true"
-            android:indeterminate="true"
-            android:background="@drawable/BarraProgressoStyle"
-            xmlns:tools="http://schemas.android.com/tools"
-            tools:visibility="invisible" />
-    </RelativeLayout>
+        android:id="@+id/relativeLayout1" />
 </LinearLayout>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.rm_desenvolvimento.rmpdv">
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="19" />
+  <application android:icon="@drawable/icon" android:label="apollo" android:name="mono.android.app.Application">
+    <activity android:icon="@drawable/icon" android:label="(RM) Apollo" android:name="md55c19f8a177f964fe76e730c6af02b391.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Listagem de Produtos" android:name="md55c19f8a177f964fe76e730c6af02b391.ProdutosList" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.rm_desenvolvimento.rmpdv.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+  <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
+  <uses-permission android:name="android.permission.STATUS_BAR" />
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+</manifest>

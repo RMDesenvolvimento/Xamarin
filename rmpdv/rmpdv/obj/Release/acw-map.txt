@@ -1,0 +1,40 @@
+rmpdv.MainActivity, rmpdv;md55c19f8a177f964fe76e730c6af02b391.MainActivity
+rmpdv.MainActivity, rmpdv, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55c19f8a177f964fe76e730c6af02b391.MainActivity
+rmpdv.MainActivity;md55c19f8a177f964fe76e730c6af02b391.MainActivity
+rmpdv.MainActivity;md55c19f8a177f964fe76e730c6af02b391.MainActivity
+rmpdv.ProdutosList, rmpdv;md55c19f8a177f964fe76e730c6af02b391.ProdutosList
+rmpdv.ProdutosList, rmpdv, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55c19f8a177f964fe76e730c6af02b391.ProdutosList
+rmpdv.ProdutosList;md55c19f8a177f964fe76e730c6af02b391.ProdutosList
+rmpdv.ProdutosList;md55c19f8a177f964fe76e730c6af02b391.ProdutosList
+rmpdv.ProdutosViewAdapter, rmpdv;md55c19f8a177f964fe76e730c6af02b391.ProdutosViewAdapter
+rmpdv.ProdutosViewAdapter, rmpdv, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55c19f8a177f964fe76e730c6af02b391.ProdutosViewAdapter
+rmpdv.ProdutosViewAdapter;md55c19f8a177f964fe76e730c6af02b391.ProdutosViewAdapter
+rmpdv.ProdutosViewAdapter;md55c19f8a177f964fe76e730c6af02b391.ProdutosViewAdapter
+rmpdv.LoginDialogo, rmpdv;md55c19f8a177f964fe76e730c6af02b391.LoginDialogo
+rmpdv.LoginDialogo, rmpdv, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55c19f8a177f964fe76e730c6af02b391.LoginDialogo
+rmpdv.LoginDialogo;md55c19f8a177f964fe76e730c6af02b391.LoginDialogo
+rmpdv.LoginDialogo;md55c19f8a177f964fe76e730c6af02b391.LoginDialogo
+rmpdv.Animacao, rmpdv;md55c19f8a177f964fe76e730c6af02b391.Animacao
+rmpdv.Animacao, rmpdv, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55c19f8a177f964fe76e730c6af02b391.Animacao
+rmpdv.Animacao;md55c19f8a177f964fe76e730c6af02b391.Animacao
+rmpdv.Animacao;md55c19f8a177f964fe76e730c6af02b391.Animacao
+Xamarin.Controls.NotificationView, AlertCenter.Android;md542e23b173f77c31075119ae748ad8ad1.NotificationView
+Xamarin.Controls.NotificationView, AlertCenter.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md542e23b173f77c31075119ae748ad8ad1.NotificationView
+Xamarin.Controls.NotificationView;md542e23b173f77c31075119ae748ad8ad1.NotificationView
+xamarin.controls.NotificationView;md542e23b173f77c31075119ae748ad8ad1.NotificationView
+Xamarin.Controls.OnTouchListener, AlertCenter.Android;md542e23b173f77c31075119ae748ad8ad1.OnTouchListener
+Xamarin.Controls.OnTouchListener, AlertCenter.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md542e23b173f77c31075119ae748ad8ad1.OnTouchListener
+Xamarin.Controls.OnTouchListener;md542e23b173f77c31075119ae748ad8ad1.OnTouchListener
+xamarin.controls.OnTouchListener;md542e23b173f77c31075119ae748ad8ad1.OnTouchListener
+Xamarin.Controls.CloseTask, AlertCenter.Android;md542e23b173f77c31075119ae748ad8ad1.CloseTask
+Xamarin.Controls.CloseTask, AlertCenter.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md542e23b173f77c31075119ae748ad8ad1.CloseTask
+Xamarin.Controls.CloseTask;md542e23b173f77c31075119ae748ad8ad1.CloseTask
+xamarin.controls.CloseTask;md542e23b173f77c31075119ae748ad8ad1.CloseTask
+Xamarin.Controls.AlertCenterHandler, AlertCenter.Android;md542e23b173f77c31075119ae748ad8ad1.AlertCenterHandler
+Xamarin.Controls.AlertCenterHandler, AlertCenter.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md542e23b173f77c31075119ae748ad8ad1.AlertCenterHandler
+Xamarin.Controls.AlertCenterHandler;md542e23b173f77c31075119ae748ad8ad1.AlertCenterHandler
+xamarin.controls.AlertCenterHandler;md542e23b173f77c31075119ae748ad8ad1.AlertCenterHandler
+Xamarin.Controls.ContinueAction, AlertCenter.Android;md542e23b173f77c31075119ae748ad8ad1.ContinueAction
+Xamarin.Controls.ContinueAction, AlertCenter.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md542e23b173f77c31075119ae748ad8ad1.ContinueAction
+Xamarin.Controls.ContinueAction;md542e23b173f77c31075119ae748ad8ad1.ContinueAction
+xamarin.controls.ContinueAction;md542e23b173f77c31075119ae748ad8ad1.ContinueAction

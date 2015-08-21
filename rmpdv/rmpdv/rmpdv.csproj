@@ -16,6 +16,8 @@
     <AssemblyName>rmpdv</AssemblyName>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,13 +63,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProdutosList.cs" />
     <Compile Include="Tabelas\RegistroProdutos.cs" />
-    <Compile Include="Tabelas\RegistoUsuario.cs" />
     <Compile Include="Adapters\ProdutoViewAdapter.cs" />
-    <Compile Include="Json\UsuarioJson.cs" />
-    <Compile Include="Json\ProdutosListaJson.cs" />
     <Compile Include="Fragment\LoginDialogo.cs" />
     <Compile Include="Animacao.cs" />
     <Compile Include="Metodos\ExtMeth.cs" />
+    <Compile Include="Tabelas\RegistroUsuario.cs" />
+    <Compile Include="MenuPrincipal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -99,6 +100,18 @@
     <AndroidResource Include="Resources\drawable\pesquisa.png" />
     <AndroidResource Include="Resources\drawable\PesquisaStyle.xml" />
     <AndroidResource Include="Resources\menu\BarraAcao.xml" />
+    <AndroidResource Include="Resources\layout\MenuPrincipal.axml" />
+    <AndroidResource Include="Resources\layout\BarraMenuPrincipal.axml" />
+    <AndroidResource Include="Resources\drawable\voltar.png" />
+    <AndroidResource Include="Resources\drawable\BarraMenuPrincipalStyle.xml" />
+    <AndroidResource Include="Resources\drawable\saida.ico" />
+    <AndroidResource Include="Resources\drawable\comandas.png" />
+    <AndroidResource Include="Resources\drawable\consuminterno.png" />
+    <AndroidResource Include="Resources\drawable\senha.png" />
+    <AndroidResource Include="Resources\drawable\comanda.ico" />
+    <AndroidResource Include="Resources\drawable\senhas.ico" />
+    <AndroidResource Include="Resources\drawable\consumointerno.ico" />
+    <AndroidResource Include="Resources\drawable\rm.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -119,7 +132,6 @@
     <Folder Include="Adapters\" />
     <Folder Include="Tabelas\" />
     <Folder Include="Resources\drawable\" />
-    <Folder Include="Json\" />
     <Folder Include="Fragment\" />
     <Folder Include="Resources\menu\" />
     <Folder Include="Metodos\" />

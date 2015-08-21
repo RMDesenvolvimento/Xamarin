@@ -1,10 +1,13 @@
 ﻿<Properties StartupItem="rmpdv\rmpdv.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_Nexus" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="rmpdv\ProdutosList.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.192.167.1.101:5555" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="rmpdv\MenuPrincipal.cs">
     <Files>
-      <File FileName="rmpdv\MainActivity.cs" Line="103" Column="18" />
-      <File FileName="rmpdv\ProdutosList.cs" Line="150" Column="6" />
-      <File FileName="rmpdv\Fragment\LoginDialogo.cs" Line="58" Column="4" />
+      <File FileName="rmpdv\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="rmpdv\MenuPrincipal.cs" Line="41" Column="23" />
+      <File FileName="rmpdv\ProdutosList.cs" Line="154" Column="5" />
+      <File FileName="rmpdv\Resources\values\styles.xml" Line="11" Column="10" />
+      <File FileName="rmpdv\Resources\menu\BarraAcao.xml" Line="11" Column="39" />
+      <File FileName="rmpdv\Resources\drawable\BarraMenuPrincipalStyle.xml" Line="22" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -12,5 +15,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <AuthorInfo Name="Ricardo Miranda" Email="rm@rmonline.com.br" Copyright="RM Desenvolvimento" Company="RM Desenvolvimento" Trademark="2015" />
-  <MonoDevelop.Ide.ItemProperties.rmpdv AndroidDesignerPreferredDevice="4.65&quot; 720p (Galaxy Nexus)" />
+  <MonoDevelop.Ide.ItemProperties.rmpdv AndroidDesignerPreferredDevice="Nexus 4" />
 </Properties>

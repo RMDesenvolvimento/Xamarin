@@ -14,10 +14,11 @@ using System.Json;
 using System.IO;
 using System.Collections.Generic;
 
-using RestSharp;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json;
 using System.Linq;
+using System.ComponentModel;
+using System.Net;
+using System.Text;
+using Newtonsoft.Json;
 
 namespace rmpdv
 {
@@ -27,7 +28,10 @@ namespace rmpdv
 	{
 		private Button btLogin;
 		private Button btSair;
-		private ProgressBar pbLer;
+		private WebClient mClient;
+		private Uri mUrl;
+		private BackgroundWorker mWorker;
+		private List<RegistroUsuario> lUsuario;
 
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -40,8 +44,6 @@ namespace rmpdv
 
 			btLogin = FindViewById<Button> (Resource.Id.btnLogin);
 			btSair = FindViewById<Button> (Resource.Id.btnSair);
-			pbLer = FindViewById<ProgressBar>(Resource.Id.progressoBar);
-			pbLer.Visibility = ViewStates.Invisible;
 
 			btLogin.Click += (sender, e) => {
 
@@ -50,8 +52,6 @@ namespace rmpdv
 				LoginDialogo dialogo = new LoginDialogo();
 				dialogo.Show(transacao,"dialog fragment");
 				dialogo.eventoCompleto += Dialogo_eventoCompleto;
-
-			 	// pbLer.visibility = "invisible";
 						
 			};
 				
@@ -63,60 +63,52 @@ namespace rmpdv
 
 		void Dialogo_eventoCompleto (object sender, OnLoginDialogoEventArgs e)
 		{
-			pbLer.Visibility = ViewStates.Visible;
 
 			string mUsuario = e.Usuario;
 			string mSenha = e.Senha;
 
-			string url = "http://192.168.0.103/rest";
+			mWorker = new BackgroundWorker();
 
-			var client = new RestClient(url);
-			client.Authenticator = new SimpleAuthenticator("usuario", mUsuario, "senha", mSenha);
+			mUrl = new Uri("http://192.168.0.103/rest1/login.php?usuario="+mUsuario+"&senha="+mSenha);
 
-			var request = new RestRequest("login", RestSharp.Method.POST);
-			IRestResponse response = client.Execute(request);
-
-			string conteudo = @response.Content; // raw content as string
-			string resposta = response.StatusDescription;
-
-			Console.WriteLine("Resposta {0} --- {1}",conteudo, resposta);
-
-			if (resposta != "OK") {
-
-				var leitura = Newtonsoft.Json.Linq.JObject.Parse (conteudo);
-				string status = (String) leitura["status"];
-
-				string mensagem = (String) leitura["msg"];
-
-				Console.WriteLine("Resposta {0} --- {1}",mensagem, status);
-				AlertCenter.Default.BackgroundColor = Color.Red;
-				AlertCenter.Default.PostMessage ("Erro login", mensagem,Resource.Drawable.Icon);
-
-			} else {
-
-				Usuarios user = new Usuarios(response.Content);
-
-				Console.WriteLine("Nome : {0}" , user.nome);
-				Console.WriteLine("Usuario: {0}" , user.usuario);
-				Console.WriteLine("Email: {0}" , user.email);
-
-				foreach (var oi in user.Todos)
-					Console.WriteLine("Todos -> {0}",oi.nome);
-				AlertCenter.Default.BackgroundColor = Color.White;
-				AlertCenter.Default.PostMessage ("Seja Bem Vindo", user.nome,Resource.Drawable.Icon);
-
-				// verificar como pode executar somente depois Da mensagem
-				StartActivity(typeof(ProdutosList));
-				this.Finish ();
-
-			}
-
-			pbLer.Visibility = ViewStates.Invisible;
+			mClient = new WebClient();
+			mClient.DownloadDataAsync(mUrl);
+			mClient.DownloadDataCompleted += mClient_DownloadDataCompleted;
 
 		}
 
-		 
-	}
+		void mClient_DownloadDataCompleted(object sender, DownloadDataCompletedEventArgs e)
+		{
+
+			RunOnUiThread(() =>
+				{
+					string json = Encoding.UTF8.GetString(e.Result);
+					if ((json == "Usuario ou Senha nao encontrado") || (json == "Usuario ou Senha sem preenchimento"))
+					{
+
+						AlertDialog.Builder builder = new AlertDialog.Builder(this);
+						builder.SetMessage(json);
+						builder.SetCancelable(false);
+						builder.SetPositiveButton("OK", delegate {builder.Dispose(); });
+						builder.Show();
+						return;
+
+					} else {
+						
+						lUsuario = JsonConvert.DeserializeObject<List<RegistroUsuario>>(json);
+
+						AlertCenter.Default.BackgroundColor = Color.White;
+						AlertCenter.Default.PostMessage ("Seja Bem Vindo", lUsuario[0].nome,Resource.Drawable.Icon);
+
+						StartActivity(typeof(MenuPrincipal));
+						this.Finish();
+					}
+				});
+		} 
+
+
+
+	};
 }
 
 

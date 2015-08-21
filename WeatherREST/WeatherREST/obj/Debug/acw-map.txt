@@ -1,4 +1,0 @@
-WeatherREST.MainActivity, WeatherREST;md509517c5c855353dbce752f828141ab50.MainActivity
-WeatherREST.MainActivity, WeatherREST, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md509517c5c855353dbce752f828141ab50.MainActivity
-WeatherREST.MainActivity;md509517c5c855353dbce752f828141ab50.MainActivity
-weatherrest.MainActivity;md509517c5c855353dbce752f828141ab50.MainActivity

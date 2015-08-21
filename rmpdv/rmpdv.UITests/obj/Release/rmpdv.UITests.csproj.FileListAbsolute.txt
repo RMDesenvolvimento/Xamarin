@@ -1,0 +1,9 @@
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Release\rmpdv.UITests.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Release\rmpdv.UITests.pdb
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Release\nunit.framework.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Release\Xamarin.UITest.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Release\nunit.framework.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\bin\Release\Xamarin.UITest.xml
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\obj\Release\rmpdv.UITests.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\obj\Release\rmpdv.UITests.dll
+C:\Users\Ricardo\Desktop\Programacao\Xamarin\rmpdv\rmpdv.UITests\obj\Release\rmpdv.UITests.pdb

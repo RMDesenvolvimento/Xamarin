@@ -1,4 +1,0 @@
-hello.MainActivity, hello;md55ee7833ce96c79c77644129b10eb2a06.MainActivity
-hello.MainActivity, hello, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55ee7833ce96c79c77644129b10eb2a06.MainActivity
-hello.MainActivity;md55ee7833ce96c79c77644129b10eb2a06.MainActivity
-hello.MainActivity;md55ee7833ce96c79c77644129b10eb2a06.MainActivity

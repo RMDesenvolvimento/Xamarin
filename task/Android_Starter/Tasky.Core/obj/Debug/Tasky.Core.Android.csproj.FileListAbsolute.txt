@@ -1,9 +1,0 @@
-C:\Users\Ricardo\Desktop\Programacao\Xamarin\task\Android_Starter\Tasky.Core\bin\Debug\Tasky.Core.Anroid.dll
-C:\Users\Ricardo\Desktop\Programacao\Xamarin\task\Android_Starter\Tasky.Core\bin\Debug\Tasky.Core.Anroid.pdb
-C:\Users\Ricardo\Desktop\Programacao\Xamarin\task\Android_Starter\Tasky.Core\bin\Debug\Tasky.Core.Anroid.apk
-C:\Users\Ricardo\Desktop\Programacao\Xamarin\task\Android_Starter\Tasky.Core\bin\Debug\Tasky.Core.Anroid-Signed.apk
-C:\Users\Ricardo\Desktop\Programacao\Xamarin\task\Android_Starter\Tasky.Core\obj\Debug\Tasky.Core.Anroid.dll
-C:\Users\Ricardo\Desktop\Programacao\Xamarin\task\Android_Starter\Tasky.Core\obj\Debug\Tasky.Core.Anroid.pdb
-C:\Users\Ricardo\Desktop\Programacao\Xamarin\task\Android_Starter\Tasky.Core\obj\Debug\android\bin\Tasky.Core.Anroid.apk
-C:\Users\Ricardo\Desktop\Programacao\Xamarin\task\Android_Starter\Tasky.Core\obj\Debug\R.cs.flag
-C:\Users\Ricardo\Desktop\Programacao\Xamarin\task\Android_Starter\Tasky.Core\obj\Debug\uploadflags.txt
